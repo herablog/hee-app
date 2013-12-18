@@ -1,0 +1,20 @@
+{
+	"name": "hee-app",
+	"version": "0.0.1",
+	"main": "./lib/server.js",
+	"author": {
+    "name": "Kazunari Hara",
+    "email": "hara_kazunari@cyberagent.co.jp",
+    "url": "http://github.com/herablog/"
+	},
+	"readme": "./README.md",
+	"dependencies": {
+    "request": "*",
+    "opts": "*",
+		"express": "*",
+		"optimist": "*",
+    "socket.io": "*",
+    "oauth": "*",
+    "querystring": "*"
+	}
+}

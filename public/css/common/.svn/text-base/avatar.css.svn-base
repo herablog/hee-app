@@ -1,0 +1,32 @@
+.avatar{position:relative;}
+.avatar > .loadingAvatar{top:-172px;left:-54px}
+.avatar > div{position:absolute;}
+.avatar > div > img{position:absolute}
+div[data-option]{z-index:18}
+[data-option='good']{display:none;}
+[data-option='good'].active{display:block;}
+[data-option='good'].active > div{width:120px;height:136px;background:url("../../img/action/good.png") no-repeat}
+[data-item="f_leftEar"]{z-index:12}
+[data-item="f_rightEar"]{z-index:-2}
+[data-part="f_leftEaring"]{z-index:12}
+[data-part="f_rightEaring"]{z-index:-1}
+[data-parts="f_frontHair"] img[data-item="f_frontHair"]{z-index:1}
+[data-parts="f_frontHair"] img[data-type="item"]{z-index:2}
+.right img[data-item="f_leftHand"]{z-index:15}
+.avatar [data-parts="f_headOut_front"]{z-index:17}
+.avatar [data-parts="f_allbodyOut_front"]{z-index:16}
+.avatar [data-parts="f_leftHand"]{z-index:15}
+.avatar [data-parts="f_leftArmLower"]{z-index:14}
+.avatar [data-parts="f_leftArmUpper"]{z-index:13}
+.avatar [data-parts="f_frontHair"]{z-index:12}
+.avatar [data-parts="f_head"]{z-index:11}
+.avatar [data-parts="f_bodyOut_front"]{z-index:10}
+.avatar [data-parts="f_leftLeg"]{z-index:9}
+.avatar [data-parts="f_body"]{z-index:8}
+.avatar [data-parts="f_rightLeg"]{z-index:7}
+.avatar [data-parts="f_rightHand"]{z-index:6}
+.avatar [data-parts="f_rightArmLower"]{z-index:5}
+.avatar [data-parts="f_rightArmUpper"]{z-index:4}
+.avatar [data-parts="f_bodyOut_back"]{z-index:3}
+.avatar [data-parts="f_backHair"]{z-index:2}
+.avatar [data-parts="f_shadow"]{z-index:1}

@@ -1,0 +1,22 @@
+#room{width:100%;height:100%;background-repeat:no-repeat;background-size:cover;z-index:102}
+#loading{position:absolute;width:100%;height:100%;color:#fff;background:#636363;font-size:12px;text-align:center;z-index:200;}
+#loading .main{position:absolute;top:30%;width:100%;height:90px}
+#error{position:absolute;width:100%;height:100%;background:#eee;text-align:center;line-height:4;z-index:200}
+#room[data-theme="001"][data-time="noon"]{background-image:url("../../img/room/bg_001_noon.png")}
+#room[data-theme="001"][data-time="evening"]{background-image:url("../../img/room/bg_001_evening.png")}
+#room[data-theme="001"][data-time="night"]{background-image:url("../../img/room/bg_001_night.png")}
+#room[data-theme="002"][data-time="noon"]{background-image:url("../../img/room/bg_002_noon.png")}
+#room[data-theme="002"][data-time="evening"]{background-image:url("../../img/room/bg_002_evening.png")}
+#room[data-theme="002"][data-time="night"]{background-image:url("../../img/room/bg_002_night.png")}
+#room[data-theme="003"][data-time="noon"]{background-image:url("../../img/room/bg_003_noon.png")}
+#room[data-theme="003"][data-time="evening"]{background-image:url("../../img/room/bg_003_evening.png")}
+#room[data-theme="003"][data-time="night"]{background-image:url("../../img/room/bg_003_night.png")}
+#room[data-theme="004"][data-time="noon"]{background-image:url("../../img/room/bg_004_noon.png")}
+#room[data-theme="004"][data-time="evening"]{background-image:url("../../img/room/bg_004_evening.png")}
+#room[data-theme="004"][data-time="night"]{background-image:url("../../img/room/bg_004_night.png")}
+#room[data-theme="005"][data-time="noon"]{background-image:url("../../img/room/bg_005_noon.png")}
+#room[data-theme="005"][data-time="evening"]{background-image:url("../../img/room/bg_005_evening.png")}
+#room[data-theme="005"][data-time="night"]{background-image:url("../../img/room/bg_005_night.png")}
+#room[data-theme="006"][data-time="noon"]{background-image:url("../../img/room/bg_006_noon.png")}
+#room[data-theme="006"][data-time="evening"]{background-image:url("../../img/room/bg_006_evening.png")}
+#room[data-theme="006"][data-time="night"]{background-image:url("../../img/room/bg_006_night.png")}
